@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito:wght@400;700&display=swap');
+
+
+body {
+  font-family: 'Barriecito';
+    background-color: #353535;
+}
+#pokemon{
+   
+    text-align: center;
+    font-weight: bolder;
+     text-transform: uppercase;
+}
+#poke
+{
+    color: #ba9b83;
+   
+  
+   
+     display: inline;
+     padding:10px;
+   
+    border-radius: 20px;
+     background-color: #63338d;
+     border: none;
+
+    
+}
+#pokenum{
+  
+
+    font-weight: bold;
+    border-radius: 20px;
+    border-width: 5px;
+    color:#000000;
+    margin:10px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+    
+}
+#search{
+    border-radius: 20px;
+    border-width: 5px;
+    cursor:progress;
+    font-size: small;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    margin:10px;
+}
+#random-btn
+{
+    border-radius: 20px;
+    border-width: 5px;
+   
+    cursor:progress;
+    font-size: small;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin:10px;
+}
+#gallery {
+ display:grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  
+gap: 20px;
+max-width: 1500px;
+
+ margin: 20px ;
+margin-left: 10%;
+ margin-right: 10%;
+}
+
+
+.pokemon-card {
+    cursor:grabbing;
+   background: rgb(130, 173, 160);
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    transition:  0.2s ;
+}
+
+#video{
+    display: block;
+   margin:40px auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,1);
+}
+
+
+#pokenum:hover {
+    transform: scale(1.05) ; 
+    box-shadow: 0 0 15px #d45110; 
+}
+ #search:hover
+ {
+    transform: scale(1.05) ; 
+    box-shadow: 0 0 15px #d45110; 
+ }
+#random-btn:hover{
+transform: scale(1.05) ; 
+    box-shadow: 0 0 15px #d45110; 
+}
+
+.pokemon-image {
+    position: relative;
+    left:20%;
+    width: 120px;
+    height: 120px;
+}
+
+
+
+.type-badge {
+    display: inline;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+    
+    color: white;
+    
+}
+#contact
+{
+     color: #ba9b83;
+   display: inline;
+   position: relative;
+   left:38%;
+  
+     background-color: #34194c;
+    
+    
+}
+.fire { background-color: #F08030;}
+.water { background-color: #6890F0; }
+.grass { background-color: #78C850; }
+.poison { background-color: purple; }
+.flying { background-color:cyan; }
+.normal { background-color:rgb(57, 114, 95); }
+.bug { background-color: rgb(188, 188, 38); }
+.ground { background-color: #82ae30;}
+.fairy { background-color: #6890F0; }
+.psychic { background-color: #e40b0b; }
+.rock { background-color: rgb(188, 188, 38); }
+.electric { background-color: #82ae30;}
+.steel { background-color: #6890F0; }
+.ghost { background-color: gray; }
+.ice { background-color: #0bc3e4; }
+.dark{ background-color: #000000;}
+.dragon{background-color: #ba9b83;}
+
+
+
+
+.pokemon-card:hover {
+  background-color: #504746;
+  transform: scale(1.05);
+}
